@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <img src="/logo.png" alt="" width="175" height="100">
+    <nav>
+        <div class="wrapper">
+            <div class="topnav">
+            <form action="/" method="post" class="rightnav">
+                <h3>Login</h3>
+                <label for="LoginA">User</label>
+                <input id="LoginA" type="email">
+                <label for="LoginB">Contraseña</label>
+                <input id="LoginB" type="password">
+            <ul class="leftnav">
+            <li><a href="/index.html">Inicio</a></li>
+            <li> <a href="/index.html#QuienesSomos">¿Quiénes somos?</a> </li>
+            <li><a href="/Agronegocios.html">Agronegocios</a></li>
+            <li><a href="/Advance.html">Advance</a></li>
+            <li><a href="/Smart.html">Smart Mortgage</a></li>
+            <li><a href="/Long.html">Long Term</a></li>
+            <li> <a href="/sugerencias.html"> Sugerencias</a></li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+</div>
+</nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+    <h2>Comentarios</h2>
+        <form action="/" method="post">
+            <label for="Sugerencias">Sugerencias al área de Riesgo</label>
+            <input id="Sugerencias" type="text">
+            <br>
+            <br>
+            <label for="Mail Institucional">Mail Institucional</label>
+            <input id="Mail Institucional" type="email">
+            <br>
+            <br>
+            <fieldset>
+                <legend>Selecciona tú área</legend>
+                <p>Área</p>
+            <select name="Área">
+                <option value="O">Operaciones</option>
+                <option value="D">Datos</option>
+                <option value="R">Riesgo</option>
+                <option value="FO">Front Office</option>
+                <option value="ISO">Programa ISO</option>
+                <option value="PYME">Programa PYME</option>
+                <option value="F">Finanzas</option>
+                <option value="C">Collections</option>
+                </select>
+                <br>
+                <p>Calificación</p>
+                <select name="ScoreCalidad">
+                    <option value="MB">10</option>
+                    <option value="B">8</option>
+                    <option value="M">6</option>
+                    <option value="MM">4</option>
+                    <option value="MM">2</option>
+                    </select>
+            </fieldset>
+
+            <br>
+            <br>
+            <input type="submit" value="Enviar sugerencia">
+            <input type="submit" value="Borrar">
+
+        </form>
+    
+</body>
+</html>

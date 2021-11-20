@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha de Productos Aspiria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1> Productos Aspiria </h1>
+        <img src="/logo.png" alt="" width="175" height="100">
+        <nav>
+            <div class="wrapper">
+            <div class="topnav">
+            <form action="/" method="post" class="rightnav">
+                <h3>Login</h3>
+                <label for="LoginA">User</label>
+                <input id="LoginA" type="email">
+                <label for="LoginB">Contraseña</label>
+                <input id="LoginB" type="password">
+            <ul class="leftnav">
+            <li><a href="/index.html">Inicio</a></li>
+            <li> <a href="/index.html#QuienesSomos">¿Quiénes somos?</a> </li>
+            <li><a href="/Agronegocios.html">Agronegocios</a></li>
+            <li><a href="/Advance.html">Advance</a></li>
+            <li><a href="/Smart.html">Smart Mortgage</a></li>
+            <li><a href="/Long.html">Long Term</a></li>
+            <li> <a href="/sugerencias.html"> Sugerencias</a></li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+</div>
+        </nav>
+        
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section>
+        <h2>¿Quiénes somos?</h2>
+    </section>
+
+    <section>
+        <p id="QuienesSomos" class="QuienesSomos">
+            Aspiria cree que los pequeños negocios son el motor de nuestra economía. <br>
+            Ayudamos a hacer llegar el capital al pequeño negocio de la manera más sencilla, rápida y simple. Esto lo hacemos mediante una combinación de capital humano nacional e internacional y tecnología. <br>
+            Buscamos ser el soporte de capital del negocio, para que este solo se dedique a hacer lo que sabe hacer mejor: crecer.
+        </p>
+        <section id="usercontent">
+        <section><iframe width="560" height="315" src="https://www.youtube.com/embed/z68UmOEZO2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h3>¡Obtener tú crédito nunca fue tan rápido y fácil!</h2>
+        <p>Sólo tienes que brindarnos lo siguiente:</p>
+        <aside>
+            <ol>
+                <li>Solicitud en el portal: <a href="url">www.sac.aspiria.mx</a></li>
+                <li>Solicitud de autorización consulta a Sociedades de Información Crediticia (PF, PFAE o PM) o autenticación vía NIP</li>
+                <li>Copia de indentificaciones vigentes (INE o Pasaporte), comprobantes de domicilio de solicitante y Obligados Solidarios</li>
+                <li>Estados de Cuenta en Bancos de Territorio Mexicano</li>
+                <li>Registro Federal del Contribuyente (RFC) del solicitante y Obligados Solidarios</li>
+                <li>Números telefónicos de Referencia</li>
+                <li>En caso de ser Persona Moral: Acta Constitutiva y última Boleta de Inscripción de Asambleas de Accionistas</li>
+                <li>Escrituras y Comprobante de Domicilio (En el caso de los productos: <em>Smart Mortgage y Long Term</em> )</li>
+                <li>Carta de Libre Gravamen</li>
+            </ol>
+        </aside>
+    </section>
+            <h2>¡Simula tú crédito!</h2>
+            <div class="main">
+                <input type="range" min="0" max="100" value="50" id="slider"> 
+                <div id="selector">
+                    <div class="SelectBtn"></div>
+                    <div id="SelectValue"></div>
+                    <div id="ProgressBar"></div>
+                </div>
+            </div>
+            <script>
+                var slider = document.getElementById("slider");
+                var selector = document.getElementById("selector");
+                var SelectValue = document.getElementById("SelectValue");
+                var ProgressBar = document.getElementById("ProgressBar");
+
+                SelectValue.innerHTML=slider.value
+
+                slider.oninput = function(){
+                    SelectValue.innerHTML=this.value;
+                    selector.style.left = this.value + "%";
+                    ProgressBar.style.width = this.value + "%";
+                }
+            </script>
+    </section>
+    
+    <footer>
+        <h6>El Buró de Entidades Financieras contiene información de ADVANTECH SERVICIOS FINANCIEROS SAPI DE CV SOFOM ENR sobre nuestro desempeño frente a los Usuarios, por la prestación de productos y servicios. Te invitamos a consultarlo también en la página <a href="url">https://www.buro.gob.mx</a> o a través de <a href="url">https://www.aspiria.mx/buroaspiria</a>. De conformidad con lo dispuesto por el Artículo 87-J de la Ley General de Organizaciones y Actividades Auxiliares del Crédito, 'Advantech Servicios Financieros', Sociedad Anónima Promotora de Inversión de Capital Variable, Sociedad Financiera de Objeto Múltiple, Entidad No Regulada, no requiere de autorización de la Secretaria de Hacienda y Crédito Público para su constitución ni para la celebración del presente contrato, y está sujeta a la supervisión o vigilancia de la Comisión Nacional Bancaria y de Valores, únicamente en materia de prevención y detección de Operaciones con Recursos de Procedencia Ilícita, Terrorismo y Terrorismo Internacional, de conformidad a lo establecido en el artículo 56 de la Ley antes citada.
+            *Ejemplo de amortización: Crédito por $10,000 a un plazo de 8 semanas: $200 Comisión por apertura IVA Incluido + $649.60 Intereses ordinarios (Tasa Simple y Fija) IVA Incluido* | Total a pagar $10,649.60 | Monto a recibir $9,800 | Costo Anual Total (CAT) promedio sin IVA 131.3% | Tasa Anual Simple y Fija sin IVA 36.4% | Fecha de cálculo 15 de Diciembre de 2020 | *Tasa y comisión sujeta a cambios con base en análisis de riesgo.</h6>
+    </footer>
+</body>
+</html>
