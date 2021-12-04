@@ -8,8 +8,99 @@ body {
 h1, h2, h3, h4, h5, h6 {font-family: 'Quicksand', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+
+.header{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Flexcontainer{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    /*flex-direction: row;
+    flex-wrap: wrap; /*esto es para que se ajuste automáticamente*/
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+
+}
+.Flexcontainer{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    /*flex-direction: row;
+    flex-wrap: wrap; /*esto es para que se ajuste automáticamente*/
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+}
+.FlexcontainerRiesgo{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    /*flex-direction: row;
+    flex-wrap: wrap; /*esto es para que se ajuste automáticamente*/
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom: 4em;
+
+}
+.ContainerImportes{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    /*flex-direction: row;
+    flex-wrap: wrap; /*esto es para que se ajuste automáticamente*/
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+}
+.logo {
+    width: 20%;
+}
+.FlexItem {
+
+    font-size: 12px;
+    border: "1";
+    margin: 1em;
+}
+
+.FlexItemb {
+
+    width: 70px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.FlexItemc {
+
+    font-size: 14px;
+    border: "1";
+}
+.gridContainer{
+    width: 25%;
+    height: 25%;
+    display: grid;
+    grid-template-columns: repeat(2, 8fr);
+    grid-template-rows: repeat(3,2fr);
+    border: solid black .5px;
+}
+.a{ 
+    grid-area: header;
+}
+.a{ 
+    grid-area: section;
+}
+.gridItem {
+    border: solid gray .5px;
+    font-size: 12px;
+}
 .topnav {
+    display: flex;
     display: inline;
+    height: 100px;
   }
  
  
@@ -31,7 +122,7 @@ margin-right: .5em;}
     margin-top: 1.7em;
 }
 .clear{
-    clear: both;
+    clear: both; 
 }
 
 .QuienesSomos{ margin: 50px;}
@@ -48,6 +139,8 @@ margin: 24% auto;
 position: relative;
 
 }
+
+
 #slider{
     -webkit-appearance: none;
     background: #00bbf0;
@@ -115,4 +208,243 @@ position: relative;
     left: 0;
     background: #2a20b6;
     
+}
+
+.footer{
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 8px;
+}
+.footersocial img {
+    height: 60px;
+
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        line-height: 1.6;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {font-family: 'Quicksand', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .header{
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .Flexcontainer{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        display: flex;
+        /*flex-direction: row;
+        flex-wrap: wrap; /*esto es para que se ajuste automáticamente*/
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: baseline;
+    
+    }
+    .Flexcontainer{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        display: flex;
+        /*flex-direction: row;
+        flex-wrap: wrap; /*esto es para que se ajuste automáticamente*/
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    
+    }
+    .FlexcontainerRiesgo{
+        width: 100%;
+        background-color: white;
+        display: flex;
+        /*flex-direction: row;
+        flex-wrap: wrap; /*esto es para que se ajuste automáticamente*/
+        flex-flow: row wrap;
+        justify-content: center;
+        padding-bottom: 4em;
+    
+    }
+    .ContainerImportes{
+        width: 100%;
+        background-color: white;
+        display: flex;
+        /*flex-direction: row;
+        flex-wrap: wrap; /*esto es para que se ajuste automáticamente*/
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    
+    }
+    .logo {
+        width: 40%;
+    }
+    .FlexItem {
+    
+        font-size: 10px;
+        border: "1";
+        margin: 1em;
+    }
+    
+    .FlexItemb {
+    
+        width: 70px;
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .FlexItemc {
+    
+        font-size: 12px;
+        border: "1";
+    }
+    .gridContainer{
+        width: 40%;
+        height: 40%;
+        display: grid;
+        grid-template-columns: repeat(2, 8fr);
+        grid-template-rows: repeat(3,2fr);
+        border: solid black .5px;
+    }
+    .a{ 
+        grid-area: header;
+    }
+    .a{ 
+        grid-area: section;
+    }
+    .gridItem {
+        border: solid gray .5px;
+        font-size: 10px;
+    }
+    .topnav {
+        display: flex;
+        display: inline;
+        height: 100px;
+      }
+     
+     
+    .leftnav form { display: inline;}
+    .leftnav {
+        font-size: 1em;
+        float: left;
+        margin-top: 0em;
+        margin-left: -1000px;
+    }
+    
+    .rightnav li { display: inline;
+    padding: .5em;
+    margin-right: .5em;}
+    .rightnav {
+        font-size: 1em;
+        padding-right: 1em;
+        float: right;
+        margin-top: 1.7em;
+    }
+    .clear{
+        clear: both; 
+    }
+    
+    .QuienesSomos{ margin: 50px;}
+    
+    #usercontent iframe {
+        float:left;
+    }
+    
+    
+    .main {
+    background: #00bbf0;
+    width: 60%;
+    margin: 24% auto;
+    position: relative;
+    
+    }
+    
+    
+    #slider{
+        -webkit-appearance: none;
+        background: #00bbf0;
+        width: 100%;
+        height: 7px;
+        outline: none;
+        border-radius: 3px;
+    
+    }
+    #slider::-webkit-slider-thumb{
+        -webkit-appearance: none;
+        width: 48px;
+        height: 48px;
+        cursor: pointer;
+        z-index: 3;
+        position: relative;
+    
+    }
+    #selector{
+        width: 48px;
+        height: 104px;
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+    }
+    .SelectBtn{
+        width: 48px;
+        height: 48px;
+        background-image: url(icon.png);
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 0;
+    }
+    #SelectValue{
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        top: 0;
+        background: #00bbf0;
+        border-radius: 4px;
+        text-align: center;
+        line-height: 45px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #SelectValue::after{
+      content: '';
+      border-top: 17px solid #00bbf0;
+      border-left: 24px solid #FFFFFF;
+      border-right: 24px solid #FFFFFF;
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+    
+    }
+    #ProgressBar{
+        width: 50%;
+        height: 7px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #2a20b6;
+        
+    }
+    
+    .footer{
+    
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 8px;
+    }
+    .footersocial img {
+        height: 60px;
 }
