@@ -9,6 +9,8 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Quicksand', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 
+
+
 .header{
     justify-content: space-between;
     align-items: center;
@@ -104,10 +106,9 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Quicksand', sans-serif;
   }
  
  
-.leftnav form { display: inline;}
+.leftnav form { display: flex;}
 .leftnav {
     font-size: 1em;
-    float: left;
     margin-top: 0em;
     margin-left: -1000px;
 }
@@ -324,33 +325,24 @@ position: relative;
         border: solid gray .5px;
         font-size: 10px;
     }
-    .topnav {
-        display: flex;
-        display: inline;
-        height: 100px;
-      }
-     
-     
-    .leftnav form { display: inline;}
-    .leftnav {
-        font-size: 1em;
-        float: left;
-        margin-top: 0em;
-        margin-left: -1000px;
-    }
-    
-    .rightnav li { display: inline;
-    padding: .5em;
-    margin-right: .5em;}
-    .rightnav {
-        font-size: 1em;
-        padding-right: 1em;
-        float: right;
-        margin-top: 1.7em;
-    }
-    .clear{
-        clear: both; 
-    }
+
+    .topnav{display: flex;
+    flex-flow: column wrap;}
+
+    .leftnav ul {display: flex;
+    flex-flow: column  ;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}    
+ 
+.rightnav ul {display: flex;
+    flex-flow: column  ;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    justify-content: center;
+}  
     
     .QuienesSomos{ margin: 50px;}
     
