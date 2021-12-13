@@ -14,6 +14,10 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Quicksand', sans-serif;
     align-items: center;
 }
 
+.rightnavform:focus{
+    background-color: rgb(140, 140, 245);
+}
+
 .Flexcontainer{
     width: 100%;
     height: 100%;
