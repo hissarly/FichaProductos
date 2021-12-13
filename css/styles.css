@@ -1,0 +1,44 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Roboto', sans-serif; }
+  h1 h1, h2 h1, h3 h1, h4 h1, h5 h1, h6 h1 {
+    color: #5e5efa; }
+
+.logo {
+  width: 20%; }
+
+.topnav {
+  display: flex;
+  display: inline;
+  height: 100px; }
+
+.leftnav {
+  font-size: 1em;
+  float: left;
+  margin-top: 0em;
+  margin-left: -1000px; }
+  .leftnav form {
+    display: inline; }
+
+.rightnav {
+  font-size: 1em;
+  padding-right: 1em;
+  float: right;
+  margin-top: 1.7em; }
+  .rightnav li {
+    display: inline;
+    padding: .5em;
+    margin-right: .5em; }
+
+.clear {
+  clear: both; }
+
+.main {
+  background: #00bbf0;
+  width: 60%;
+  margin: 24% auto;
+  position: relative;
+  align-items: center; }
+
+.body {
+  color: #00bbf0; }

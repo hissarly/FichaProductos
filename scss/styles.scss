@@ -1,0 +1,42 @@
+h1, h2, h3, h4, h5, h6 {font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    h1{ color: rgb(94, 94, 250);}
+}
+.logo {
+    width: 20%;
+}
+.topnav {
+    display: flex;
+    display: inline;
+    height: 100px;
+  }
+.leftnav {
+    font-size: 1em;
+    float: left;
+    margin-top: 0em;
+    margin-left: -1000px;
+    form { display: inline;}
+}
+
+.rightnav {
+    font-size: 1em;
+    padding-right: 1em;
+    float: right;
+    margin-top: 1.7em;
+    li { display: inline;
+        padding: .5em;
+        margin-right: .5em;}
+}
+.clear{
+    clear: both; 
+}
+
+.main {
+    background: #00bbf0;
+    width: 60%;
+    margin: 24% auto;
+    position: relative;
+    align-items: center;
+    
+    }
+.body {color: #00bbf0;;}
